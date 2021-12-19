@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:padding="16sp"
+    android:orientation="vertical"
+    android:background="@color/lightBlue"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvAgeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+        android:text="Calculate your Age"
+        android:textColor="@color/red"
+        android:textStyle="bold"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btnDatePicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Select Date"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvSelectedDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text=""
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/tvSelectedDatePh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/lightGrey"
+        android:text="Selected Date"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25sp"
+        android:text="Age"
+        android:textColor="@color/green"
+        android:textStyle="bold"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/tvAgeInMinutes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text=""
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/tvInMinutes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Age in minutes"
+        android:textColor="@color/lightGrey"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvAgeInDays"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+        android:textColor="@color/black"
+        android:text=""
+        android:textStyle="bold"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/tvAgeInDaysPh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/lightGrey"
+        android:text="Age in days"
+        android:textSize="20sp" />
+
+
+</LinearLayout>
